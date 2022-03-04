@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 				"json:Reports/jsonReport.json"},
 		features="./src/test/resources/features",
 		glue="step_definitions",
-		dryRun=false, 	// true : to generate test cases	
-		tags="@SauceValidLogin"
+		dryRun=true, 	// true : to generate test cases	
+		tags="@AddTradeValid"
 		)
 public class TestRunner {
 	
